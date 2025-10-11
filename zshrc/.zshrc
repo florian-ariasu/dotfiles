@@ -18,10 +18,6 @@ alias ll="ls -alF"
 alias cd="z"
 alias cat="bat"
 alias brewup='brew update && brew upgrade'
-- () { cd -; }
-..() { cd ../; }
-...() { cd ../../; }
-....() { cd ../../../; }
 
 # ---- History Setup ----
 HISTFILE=$HOME/.zhistory
