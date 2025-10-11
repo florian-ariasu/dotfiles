@@ -1,9 +1,21 @@
-theme = catppuccin-mocha
+theme = "catppuccin-mocha.conf"
 font-size = 19
-background-blur-radius = 20
-mouse-hide-while-typing = true
+
+# Window appearance
 window-decoration = true
-# keybind = global:cmd+/=toggle_quick_terminal
+macos-titlebar-style = "hidden"
+window-padding-x = 20
+window-padding-y = 20
+window-width = 100
+window-height = 23
+window-position-x = 150
+window-position-y = 200
+
+# Transparency and blur
+background-opacity = 0.7
+background-blur-radius = 20
+
+# Behavior
+mouse-hide-while-typing = true
 macos-option-as-alt = true
-# background-opacity = 0.7
-# background-blur-radius = 20 
+
