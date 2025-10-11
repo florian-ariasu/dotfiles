@@ -17,7 +17,7 @@ error_symbol = '[➜ :](bold red)'
 [git_branch]
 format =  '[$symbol$branch (:$remote_branch)]($style)'
 symbol = " "
-style = "bold #cba6f7"
+style = "bold #f2cdcd"
 
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
@@ -69,4 +69,4 @@ mantle = "#181825"
 crust = "#11111b"
 
 [git_status]
-style = "bold #f9e2af"
+style = "bold #b4befe"
