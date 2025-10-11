@@ -56,7 +56,7 @@ dockerps() {
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/florianariasu/.docker/completions $fpath)
 autoload -Uz compinit
-compinit
+compinit -u
 # End of Docker CLI completions
 export SSL_CERT_FILE=$(python3 -m certifi)
 export PATH=/Users/florianariasu/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:$PATH
