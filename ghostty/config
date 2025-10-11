@@ -9,7 +9,7 @@ window-padding-y = 20
 window-width = 100
 window-height = 23
 window-position-x = 150
-window-position-y = 200
+window-position-y = 190
 
 # Transparency and blur
 background-opacity = 0.7
