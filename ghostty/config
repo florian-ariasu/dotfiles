@@ -13,7 +13,7 @@ window-position-y = 190
 
 # Transparency and blur
 background-opacity = 0.7
-background-blur-radius = 20
+background-blur-radius = 50
 
 # Behavior
 mouse-hide-while-typing = true
