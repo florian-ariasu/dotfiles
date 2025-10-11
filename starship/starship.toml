@@ -18,9 +18,6 @@ error_symbol = '[➜ :](bold red)'
 format =  '[$symbol$branch (:$remote_branch)]($style)'
 symbol = " "
 
-[git_commit]
-tag_symbol = '  '
-
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
 disabled = true
