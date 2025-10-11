@@ -16,6 +16,7 @@ error_symbol = '[➜ :](bold red)'
 
 [git_branch]
 format =  '[$symbol$branch(:$remote_branch)]($style)'
+symbol = " "
 
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
