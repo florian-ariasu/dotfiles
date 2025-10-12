@@ -18,6 +18,7 @@ alias ll="ls -alF"
 alias cd="z"
 alias cat="bat"
 alias brewup='brew update && brew upgrade'
+alias clean='/Users/florianariasu/empty_trash.sh'
 
 # ---- Git aliases ---- 
 # # Status / Add / Commit / Push
@@ -44,6 +45,9 @@ git config --global alias.last "log -1 HEAD"
 # Stash / Tag
 git config --global alias.stsh stash
 git config --global alias.tg tag
+
+# Remote
+git config --global alias.r "remote"
 
 
 # ---- History Setup ----
