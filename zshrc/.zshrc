@@ -93,4 +93,4 @@ export SSL_CERT_FILE=$(python3 -m certifi)
 export PATH=/Users/florianariasu/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:$PATH
 
 alias get_idf=". $HOME/esp/esp-idf/export.sh"
-
+export TERM=xterm-256color
