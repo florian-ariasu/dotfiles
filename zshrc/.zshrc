@@ -1,4 +1,5 @@
 # ---- Environment Variables ----
+export PATH="$HOME/miniforge3/bin:$PATH"
 export HOSTNAME=Florians-MacBook-Air.local
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export JAVA_HOME=/Users/florianariasu/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/19:38Home
