@@ -1,5 +1,4 @@
 # ---- Environment Variables ----
-export PATH="$HOME/miniforge3/bin:$PATH"
 export HOSTNAME=Florians-MacBook-Air.local
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export JAVA_HOME=/Users/florianariasu/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/19:38Home
@@ -90,8 +89,5 @@ fpath=(/Users/florianariasu/.docker/completions $fpath)
 autoload -Uz compinit
 compinit -u
 # End of Docker CLI completions
-export SSL_CERT_FILE=$(python3 -m certifi)
-export PATH=/Users/florianariasu/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:$PATH
 
-alias get_idf=". $HOME/esp/esp-idf/export.sh"
 export TERM=xterm-256color
