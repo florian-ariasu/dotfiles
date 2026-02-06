@@ -18,36 +18,6 @@ alias ll="ls -alF"
 alias cd="z"
 alias cat="bat"
 alias brewup='brew update && brew upgrade'
-alias clean='/Users/florianariasu/empty_trash.sh'
-
-# ---- Git aliases ---- 
-# # Status / Add / Commit / Push
-git config --global alias.stat status
-git config --global alias.a add
-git config --global alias.com commit
-git config --global alias.p push
-
-# Checkout / Branch / Merge / Pull
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.mg merge
-git config --global alias.pl pull
-
-# Undo / Reset / Diff
-git config --global alias.unstage 'reset HEAD --'
-git config --global alias.df diff
-git config --global alias.dc 'diff --cached'
-
-# Log shortcuts
-git config --global alias.lg "log --oneline --graph --decorate --all"
-git config --global alias.last "log -1 HEAD"
-
-# Stash / Tag
-git config --global alias.stsh stash
-git config --global alias.tg tag
-
-# Remote
-git config --global alias.r "remote"
 
 
 # ---- History Setup ----
