@@ -6,7 +6,6 @@
   "catppuccin": { "branch": "main", "commit": "beaf41a30c26fd7d6c386d383155cbd65dd554cd" },
   "codesnap.nvim": { "branch": "main", "commit": "31b5dbc353ce0823086273abb6e82f3dcbb9e4f8" },
   "conform.nvim": { "branch": "master", "commit": "c2526f1cde528a66e086ab1668e996d162c75f4f" },
-  "copilot.lua": { "branch": "master", "commit": "3faffefbd6ddeb52578535ec6b730e0b72d7fd1a" },
   "flash.nvim": { "branch": "main", "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2" },
   "fzf-lua": { "branch": "main", "commit": "c86b72c62b01d2242cafa45fb0d1fc3bf66e6a2b" },
   "gitsigns.nvim": { "branch": "main", "commit": "1ce96a464fdbc24208e24c117e2021794259005d" },

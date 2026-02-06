@@ -1,5 +1,5 @@
 return {
-  -- This tells LazyVim not to load the blink.cmp plugin
   { "saghen/blink.cmp", enabled = false },
+  { "Exafunction/codeium.nvim", enabled = false },
+  { "Exafunction/codeium.vim", enabled = false },
 }
-
