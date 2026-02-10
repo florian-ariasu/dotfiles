@@ -1,7 +1,7 @@
 # ---- Environment Variables ----
 export HOSTNAME=Florians-MacBook-Air.local
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export JAVA_HOME=/Users/florianariasu/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/19:38Home
+export JAVA_HOME=/Users/florianariasu/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home
 export BAT_THEME="Catppuccin Mocha"
 export VERTICAL="\nID\t{{.ID}}\nImage\t{{.Image}}\nCommand\t{{.Command}}\nCreated\t{{.RunningFor}}\nStatus\t{{.Status}}\nPorts\t{{.Ports}}\nNames\t{{.Names}}\n"
 export PATH="/opt/homebrew/opt/graphviz/bin:$PATH"
