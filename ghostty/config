@@ -1,4 +1,5 @@
-theme = "catppuccin-mocha.conf"
+#theme = "catppuccin-mocha.conf"
+theme = TokyoNight Storm
 font-size = 19
 
 # Window appearance
