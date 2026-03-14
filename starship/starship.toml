@@ -13,8 +13,8 @@ command_timeout = 2000
 
 [character]
 vicmd_symbol = "[N] >>>"
-success_symbol = '[➜ :](bold green)'
-error_symbol = '[➜ :](bold red)'
+success_symbol = '[➜ :](bold #73daca)'
+error_symbol = '[➜ :](bold #f7768e)'
 
 
 [directory.substitutions]
@@ -44,7 +44,7 @@ disabled = true
 detect_files = ['Dockerfile']
 format = '[$symbol$context( \($namespace\))]($style) '
 contexts = [
-  { context_pattern = "arn:aws:eks:us-west-2:577926974532:cluster/zd-pvc-omer", style = "#9ece6a", context_alias = "omerxx", symbol = " " },
+  { context_pattern = "arn:aws:eks:us-west-2:577926974532:cluster/zd-pvc-omer", style = "#73daca", context_alias = "omerxx", symbol = " " },
 ]
 
 
