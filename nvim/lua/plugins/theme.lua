@@ -1,17 +1,18 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    name = "tokyonight",
+    "olimorris/onedarkpro.nvim",
+    name = "onedarkpro",
     opts = {
-      style = "storm",
-      transparent = false,
-      terminal_colors = true,
+      options = {
+        transparency = false,
+        terminal_colors = true,
+      },
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-storm",
+      colorscheme = "onedark",
     },
   },
 }
