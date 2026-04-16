@@ -1,42 +1,34 @@
 add_newline = false
 
-# A minimal left prompt
 format = """$directory$character"""
 
-palette = "tokyo_night_storm"
+palette = "one_dark_pro"
 
-# move the rest of the prompt to the right
 right_format = """$all"""
 
 command_timeout = 2000
 
-
 [character]
 vicmd_symbol = "[N] >>>"
-success_symbol = '[➜ :](bold #73daca)'
-error_symbol = '[➜ :](bold #f7768e)'
-
+success_symbol = '[➜ :](bold #56b6c2)'
+error_symbol = '[➜ :](bold #e06c75)'
 
 [directory.substitutions]
 '~/tests/starship-custom' = 'work-project'
 
-
 [git_branch]
 format = '[$symbol$branch (:$remote_branch)]($style)'
 symbol = " "
-style = "bold #f7768e"
-
+style = "bold #e06c75"
 
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
 disabled = true
-style = 'bold #7aa2f7'
+style = 'bold #61afef'
 symbol = " "
 
-
 [golang]
-format = '[ ](bold #7dcfff)'
-
+format = '[ ](bold #56b6c2)'
 
 [kubernetes]
 symbol = '☸ '
@@ -44,36 +36,33 @@ disabled = true
 detect_files = ['Dockerfile']
 format = '[$symbol$context( \($namespace\))]($style) '
 contexts = [
-  { context_pattern = "arn:aws:eks:us-west-2:577926974532:cluster/zd-pvc-omer", style = "#73daca", context_alias = "omerxx", symbol = " " },
+  { context_pattern = "arn:aws:eks:us-west-2:577926974532:cluster/zd-pvc-omer", style = "#98c379", context_alias = "omerxx", symbol = " " },
 ]
-
 
 [docker_context]
 disabled = true
 
-
 [git_status]
-style = "bold #bb9af7"
+style = "bold #c678dd"
 
+[palettes.one_dark_pro]
+background = "#282c34"
+foreground = "#abb2bf"
 
-[palettes.tokyo_night_storm]
-background = "#24283b"
-foreground = "#c0caf5"
+black = "#282c34"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#e5c07b"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#abb2bf"
 
-black = "#1d202f"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#bb9af7"
-cyan = "#7dcfff"
-white = "#a9b1d6"
-
-bright_black = "#414868"
-bright_red = "#f7768e"
-bright_green = "#9ece6a"
-bright_yellow = "#e0af68"
-bright_blue = "#7aa2f7"
-bright_magenta = "#bb9af7"
-bright_cyan = "#7dcfff"
-bright_white = "#c0caf5"
+bright_black = "#5c6370"
+bright_red = "#e06c75"
+bright_green = "#98c379"
+bright_yellow = "#d19a66"
+bright_blue = "#61afef"
+bright_magenta = "#c678dd"
+bright_cyan = "#56b6c2"
+bright_white = "#ffffff"
