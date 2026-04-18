@@ -1,0 +1,56 @@
+add_newline = false
+
+format = """$directory$character"""
+
+palette = "tokyo_night"
+
+right_format = """$all"""
+
+command_timeout = 2000
+
+[character]
+vicmd_symbol = "[N] >>>"
+success_symbol = '[➜ :](bold #73daca)'
+error_symbol = '[➜ :](bold #f7768e)'
+
+[directory.substitutions]
+'~/tests/starship-custom' = 'work-project'
+
+[git_branch]
+format = '[$symbol$branch (:$remote_branch)]($style)'
+symbol = " "
+style = "bold #f7768e"
+
+[aws]
+format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
+disabled = true
+style = 'bold #7aa2f7'
+symbol = " "
+
+[docker_context]
+disabled = true
+
+[git_status]
+style = "bold #bb9af7"
+
+[palettes.tokyo_night]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+black = "#15161e"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#a9b1d6"
+
+bright_black = "#414868"
+bright_red = "#f7768e"
+bright_green = "#9ece6a"
+bright_yellow = "#e0af68"
+bright_blue = "#7aa2f7"
+bright_magenta = "#bb9af7"
+bright_cyan = "#7dcfff"
+bright_white = "#c0caf5"
