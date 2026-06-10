@@ -18,6 +18,7 @@ alias ll="ls -alF"
 alias cd="z"
 alias cat="bat"
 alias brewup='brew update && brew upgrade'
+alias grep='grep --color=auto'
 
 
 # ---- History Setup ----
