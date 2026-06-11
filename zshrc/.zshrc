@@ -45,6 +45,7 @@ bindkey ';4C' forward-word
 # ---- External Scripts & Plugins ----
 [ -f "/Users/florianariasu/.ghcup/env" ] && . "/Users/florianariasu/.ghcup/env" # ghcup-env
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#767c9d"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ---- CLI Enhancements ----
