@@ -1,5 +1,6 @@
 theme = "Poimandres Darker"
 font-size = 19
+cursor-color = #f087bd
 
 # Window appearance
 window-decoration = true
